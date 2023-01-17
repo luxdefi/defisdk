@@ -20,16 +20,7 @@
     "watch": "tsdx watch",
     "test": "tsdx test",
     "prepublish": "tsdx build",
-    "prepare": "husky install",
     "prettier": "prettier --write 'src/**/*.ts' 'test/**/*.ts'"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "yarn lint",
-      "yarn test --bail --passWithNoTests --findRelatedTests",
-      "prettier --write"
-    ],
-    "*.md": "prettier --write"
   },
   "dependencies": {
     "@types/memory-cache": "^0.2.1",
@@ -75,7 +66,6 @@
     "babel-plugin-transform-jsbi-to-bigint": "^1.4.0",
     "eip-712": "^0.4.3",
     "husky": "^7.0.0",
-    "lint-staged": "^11.1.2",
     "seedrandom": "^3.0.5",
     "tsdx": "^0.14.1"
   },
