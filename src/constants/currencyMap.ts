@@ -13,13 +13,13 @@ export enum CurrencySymbol {
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 export const UNDEPLOYED_ADDRESS = ZERO_ADDRESS
 
-// export const AvalancheLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/avax.jpg'
-// export const BinanceCoinLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/bnb.jpg'
-export const EthLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/eth.jpg'
+export const AvalancheLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/avax.jpg'
+export const BinanceCoinLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/bnb.jpg'
+export const EthLogo = 'https://raw.githubusercontent.com/sushiswap/list/master/logos/native-currency-logos/ethereum.svg'
 export const WethLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/weth.jpg'
 export const UsdcLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/usdc.jpg'
-export const UsdtLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/usdt.jpg'
-export const DaiLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/dai.jpg'
+export const UsdtLogo = 'https://ethereum-optimism.github.io/data/USDT/logo.png'
+export const DaiLogo = 'https://ethereum-optimism.github.io/data/DAI/logo.svg'
 // export const xDaiLogo =
 //   'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/xdai/assets/0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d/logo.svg'
 // export const FantomLogo = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/ftm.jpg'
